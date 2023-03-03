@@ -1,8 +1,6 @@
 // fetch: fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
 //O uso do fetch() acarreta em um argumento — a pasta do recurso que você deseja buscar — e retorna uma promessa (promise) contendo a resposta (response object).
 
-
-
 var consultaCEP = fetch('https://viacep.com.br/ws/01001000/json/') 
   //método then: lida com os dados recebidos pela requisição. 
   //o dado recebido foi o objeto do tipo Response que traz um corpo de resposta que não da para acessar
