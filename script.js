@@ -13,6 +13,8 @@ var consultaCEP = fetch('https://viacep.com.br/ws/01001000/json/')
         }
         })
     .catch(erro => console.log(erro))//catch: quando a promessa for rejeitada; "pega o throw e imprime o erro na tela"
-    .finally(mensagem => console.log('Processamento concluído.'))
+    .finally(mensagem => console.log('Processamento concluído.'))//aparece independente se a promessa foi resolvida ou não.
+    
+
     
 //uma requisição é composta de uma request(solicitação) e uma response(resposta)/
