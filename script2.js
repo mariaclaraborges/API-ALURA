@@ -1,10 +1,5 @@
-<<<<<<< HEAD
- //Aprendendo async
-=======
 //Aprendendo async
->>>>>>> 3f0d4a98c3d75eb298e2ac7c3cb473dacec647e1
- 
- 
+
  async function buscaEndereco(cep){
     try{
         var consultaCEP = await fetch (`https://viacep.com.br/ws/${cep}/json/`)
@@ -29,8 +24,7 @@
 //let conjuntosCeps = ceps.map(valores => buscaEndereco(valores));
 //.map vai fazer um array de conjunto de CEP's. como parâmetro, buscaEndereco() receberá os CEPs presentes no array de ceps
 //Promise.all(conjuntosCeps).then(respostas => console.log(respostas))
-<<<<<<< HEAD
 //promise all vai resolver o array de promessas, e vamos pedir para imprimir com o then (imprime o que foi resolvido)
-=======
-//promise all vai resolver o array de promessas, e vamos pedir para imprimir com o then (imprime o que foi resolvido)
->>>>>>> 3f0d4a98c3d75eb298e2ac7c3cb473dacec647e1
+
+
+
